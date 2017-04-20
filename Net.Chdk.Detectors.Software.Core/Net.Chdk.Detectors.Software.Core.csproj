@@ -37,6 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
+    <ProjectReference Include="..\..\Net.Chdk.Model.Card\src\Net.Chdk.Model.Card\Net.Chdk.Model.Card.csproj">
+      <Project>{a41d61fe-2fb8-4892-ac7d-ecee7e61c637}</Project>
+      <Name>Net.Chdk.Model.Card</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Net.Chdk.Model.Software\src\Net.Chdk.Model.Software\Net.Chdk.Model.Software.csproj">
       <Project>{7F492AD5-C9E5-4E13-9587-D0B88BA8D209}</Project>
       <Name>Net.Chdk.Model.Software</Name>
