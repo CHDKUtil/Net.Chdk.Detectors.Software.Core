@@ -5,6 +5,6 @@ namespace Net.Chdk.Detectors.Software
 {
     public interface IProductDetector
     {
-        ProductInfo GetProduct(CardInfo cardInfo);
+        SoftwareProductInfo GetProduct(CardInfo cardInfo);
     }
 }
