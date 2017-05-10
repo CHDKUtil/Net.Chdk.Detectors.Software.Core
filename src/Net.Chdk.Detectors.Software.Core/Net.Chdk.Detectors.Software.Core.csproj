@@ -42,11 +42,12 @@
       <Name>Net.Chdk.Model.Card</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Net.Chdk.Model.Software\src\Net.Chdk.Model.Software\Net.Chdk.Model.Software.csproj">
-      <Project>{7F492AD5-C9E5-4E13-9587-D0B88BA8D209}</Project>
+      <Project>{7f492ad5-c9e5-4e13-9587-d0b88ba8d209}</Project>
       <Name>Net.Chdk.Model.Software</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IInnerBinarySoftwareDetector.cs" />
     <Compile Include="IProductDetector.cs" />
     <Compile Include="ISoftwareDetector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
