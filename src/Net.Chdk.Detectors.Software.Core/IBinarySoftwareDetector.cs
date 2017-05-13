@@ -4,6 +4,6 @@ namespace Net.Chdk.Detectors.Software
 {
     public interface IBinarySoftwareDetector
     {
-        SoftwareInfo GetSoftware(SoftwareProductInfo product, SoftwareCameraInfo camera, byte[] buffer);
+        SoftwareInfo UpdateSoftware(SoftwareInfo software, byte[] buffer);
     }
 }
