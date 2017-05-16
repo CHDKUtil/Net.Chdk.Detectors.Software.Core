@@ -48,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IBinarySoftwareDetector.cs" />
-    <Compile Include="IInnerBinarySoftwareDetector.cs" />
+    <Compile Include="IProductBinarySoftwareDetector.cs" />
     <Compile Include="IProductDetector.cs" />
     <Compile Include="ISoftwareDetector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

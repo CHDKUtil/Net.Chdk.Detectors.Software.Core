@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Net.Chdk.Detectors.Software
 {
-    public interface IInnerBinarySoftwareDetector
+    public interface IProductBinarySoftwareDetector
     {
         string ProductName { get; }
         IEnumerable<byte[]> Bytes { get; }
