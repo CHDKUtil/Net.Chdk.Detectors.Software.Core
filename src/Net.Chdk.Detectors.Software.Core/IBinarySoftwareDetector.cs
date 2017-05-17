@@ -7,6 +7,6 @@ namespace Net.Chdk.Detectors.Software
     public interface IBinarySoftwareDetector
     {
         SoftwareInfo GetSoftware(string basePath, IProgress<double> progress, CancellationToken token);
-        SoftwareInfo UpdateSoftware(SoftwareInfo software, byte[] buffer);
+        bool UpdateSoftware(SoftwareInfo software, byte[] buffer);
     }
 }
