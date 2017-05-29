@@ -69,6 +69,7 @@
   <ItemGroup>
     <Compile Include="IBinarySoftwareDetector.cs" />
     <Compile Include="IInnerBinarySoftwareDetector.cs" />
+    <Compile Include="IModulesDetector.cs" />
     <Compile Include="IProductBinarySoftwareDetector.cs" />
     <Compile Include="IProductDetector.cs" />
     <Compile Include="ISoftwareDetector.cs" />
